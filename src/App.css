@@ -1,0 +1,117 @@
+.wrapper {
+    width: 990px;
+    margin: 0 auto;
+    background: url("../public/images/templatemo_wrapper.png") repeat-y;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    width: 990px;
+    height: 200px;
+    padding: 0 10px;
+    background: url("../public/images/templatemo_header.png") no-repeat;
+    flex-shrink: 0;
+}
+
+.header .site_title {
+    width: 260px;
+    text-align: center;
+    padding: 80px 0 0 20px;
+}
+
+.header .site_title a {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.header .site_title a span {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #5f6675;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    padding: 60px 40px 30px 10px;
+    background: url("../public/images/templatemo_content_top.png") no-repeat;
+}
+
+.sidebar {
+    flex: 0 0 280px;
+}
+
+.menu {
+    margin-bottom: 50px;
+}
+
+.menu ul li {
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+.menu ul li a {
+    display: block;
+    height: 25px;
+    padding: 11px 0 30px 30px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+    outline: none;
+    background: url("../public/images/templatemo_menu.png") no-repeat left bottom;
+}
+
+.menu li a:hover {
+    color: #fff;
+    background: url("../public/images/tempatemo_menu_hover.png") no-repeat left bottom;
+}
+
+/*.current {
+    color: #fff;
+    background: url("../public/images/tempatemo_menu_hover.png") no-repeat left bottom;
+}*/
+
+.sidebar_box {
+    padding-left: 30px;
+}
+
+.side_box {
+    margin-bottom: 20px;
+    padding: 10px 0 20px 5px;
+    border-bottom: 1px solid;
+}
+
+.side_box:hover {
+   background: #132b31;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+.content_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column_left {
+
+}
+
+.column_right {
+
+}
+
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+}
